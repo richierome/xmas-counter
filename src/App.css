@@ -2,6 +2,23 @@
   text-align: center;
 }
 
+
+.App-container {
+  background-image: url('/public/mc_1500.jpeg'); /* Replace 'path_to_your_image.jpg' with the actual image file path */
+  background-size: cover; /* Adjust the image size to cover the entire container */
+  background-position: center top ; /* Center the background image */
+  height: 100vh; /* Set the container height (example: 100% of viewport height) */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white; /* Set text color for better visibility */
+}
+.Counter-container, .Start-Reset {
+  text-align: center;
+}
+
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,7 +31,13 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-image: url('/public/mc_1500.jpeg');
+  background-position: center;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto; */
+  
   min-height: 100vh;
   display: flex;
   flex-direction: column;
