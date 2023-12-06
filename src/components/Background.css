@@ -1,0 +1,18 @@
+/* Background.css */
+
+/* Default background image */
+body {
+    background-image: url('../../public/mc_1500.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  /* New background image when the countdown is complete */
+  body.countdown-complete {
+    background-image: url('../../public/mc_xmas.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  

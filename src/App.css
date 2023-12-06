@@ -4,7 +4,6 @@
 
 
 .App-container {
-  background-image: url('/public/mc_1500.jpeg'); /* Replace 'path_to_your_image.jpg' with the actual image file path */
   background-size: cover; /* Adjust the image size to cover the entire container */
   background-position: center top ; /* Center the background image */
   height: 100vh; /* Set the container height (example: 100% of viewport height) */
@@ -13,9 +12,18 @@
   align-items: center;
   color: white; /* Set text color for better visibility */
 }
-.Counter-container, .Start-Reset {
+.Date {
   text-align: center;
 }
+.Start, .Restart {
+  background-color: 'transparent';
+  border: 'none';
+  color: 'white';
+   
+
+}
+
+
 
 
 
