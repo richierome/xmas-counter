@@ -2,7 +2,6 @@
   text-align: center;
 }
 
-
 .App-container {
   background-size: cover; /* Adjust the image size to cover the entire container */
   background-position: center top ; /* Center the background image */
@@ -12,20 +11,118 @@
   align-items: center;
   color: white; /* Set text color for better visibility */
 }
-.Date {
+
+.Date{
+  padding-top: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.Play-btn-container, .Pause-btn-container{
+  text-align: center
+}
+
+.Calender, .P-button{
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.Calender:hover,
+.Calender:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.577) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.Calender:hover {
+  transform: translateY(-1px);
+}
+
+.Calender:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+
+.Date, 
+.Free, 
+.Countdown {
   text-align: center;
+} 
+
+.T-button{
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
 }
-.Start, .Restart {
-  background-color: 'transparent';
-  border: 'none';
-  color: 'white';
-   
 
+.T-button:hover,
+.T-button:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.577) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
 }
 
+.T-button:hover {
+  transform: translateY(-1px);
+}
 
-
-
+.T-button:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
 
 .App-logo {
   height: 40vmin;
