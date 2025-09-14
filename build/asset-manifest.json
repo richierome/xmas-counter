@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "//xmas-counter/static/css/main.0a5ac2b8.css",
-    "main.js": "//xmas-counter/static/js/main.e690a28f.js",
-    "static/js/787.7d4cf73c.chunk.js": "//xmas-counter/static/js/787.7d4cf73c.chunk.js",
-    "static/media/mc_song.mp3": "//xmas-counter/static/media/mc_song.294577d04d058efbbc66.mp3",
-    "static/media/mc_xmas.webp": "//xmas-counter/static/media/mc_xmas.2dcfb654f0c24c032023.webp",
-    "static/media/mc_1500.jpeg": "//xmas-counter/static/media/mc_1500.0015f778423c2f7c4443.jpeg",
-    "index.html": "//xmas-counter/index.html",
-    "main.0a5ac2b8.css.map": "//xmas-counter/static/css/main.0a5ac2b8.css.map",
-    "main.e690a28f.js.map": "//xmas-counter/static/js/main.e690a28f.js.map",
-    "787.7d4cf73c.chunk.js.map": "//xmas-counter/static/js/787.7d4cf73c.chunk.js.map"
+    "main.css": "/xmas-counter/static/css/main.7cbe7633.css",
+    "main.js": "/xmas-counter/static/js/main.143dfab3.js",
+    "static/js/787.7d4cf73c.chunk.js": "/xmas-counter/static/js/787.7d4cf73c.chunk.js",
+    "static/media/mc_song.mp3": "/xmas-counter/static/media/mc_song.294577d04d058efbbc66.mp3",
+    "static/media/mc_xmas.webp": "/xmas-counter/static/media/mc_xmas.2dcfb654f0c24c032023.webp",
+    "static/media/mc_1500.jpeg": "/xmas-counter/static/media/mc_1500.0015f778423c2f7c4443.jpeg",
+    "index.html": "/xmas-counter/index.html",
+    "main.7cbe7633.css.map": "/xmas-counter/static/css/main.7cbe7633.css.map",
+    "main.143dfab3.js.map": "/xmas-counter/static/js/main.143dfab3.js.map",
+    "787.7d4cf73c.chunk.js.map": "/xmas-counter/static/js/787.7d4cf73c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a5ac2b8.css",
-    "static/js/main.e690a28f.js"
+    "static/css/main.7cbe7633.css",
+    "static/js/main.143dfab3.js"
   ]
 }
