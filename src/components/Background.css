@@ -3,9 +3,10 @@
 /* Default background image */
 body {
   background-image: url('../../public/mc_1500.jpeg');
-  background-size: cover;
-  background-position: center;
+  background-size: 100% auto;
+  background-position: center 20%;
   background-repeat: no-repeat;
+  background-color: #000; /* fallback fill */
   background-attachment: fixed; /* good for desktop */
   min-height: 100vh;
   margin: 0;
@@ -14,9 +15,10 @@ body {
 /* New background image when the countdown is complete */
 body.countdown-complete {
   background-image: url('../../public/mc_xmas.webp');
-  background-size: cover;
-  background-position: center;
+  background-size: 100% auto;
+  background-position: center 25%;
   background-repeat: no-repeat;
+  background-color: #000; /* fallback fill */
   background-attachment: fixed;
 }
 
@@ -30,7 +32,8 @@ body.countdown-complete {
   body.countdown-complete {
     background-attachment: scroll; /* prevents mobile jitter */
     background-size: cover;
-    background-position: top center;
+    background-position: center center;
+    background-color: #000; /* fallback fill */
   }
 }
 
@@ -39,7 +42,11 @@ body.countdown-complete {
   body,
   body.countdown-complete {
     background-attachment: scroll;
-    background-size: contain; /* show full image instead of cropping */
-    background-position: top center;
+    background-size: cover; 
+    background-position: center center;
+    background-color: #000; /* fallback fill */
   }
 }
+
+
+
